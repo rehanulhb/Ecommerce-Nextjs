@@ -41,6 +41,45 @@ const data = {
             description:'A popular shirt',
             
         },
+        {
+            name:'Golf Pants',
+            slug: 'golf-pants',
+            category:'Pants',
+            image:'/images/pants1.jpg',
+            price: 90,
+            brand: 'Oliver',
+            rating: 2.9,
+            numReviews : 13,
+            countInStock:20,
+            description:'Smart Looking Pants',
+            
+        },
+        {
+            name:'Fit Pants',
+            slug: 'fit-pants',
+            category:'Pants',
+            image:'/images/pants2.jpg',
+            price: 95,
+            brand: 'Zara',
+            rating: 3.5,
+            numReviews : 7,
+            countInStock:20,
+            description:'A Popular Pants',
+            
+        },
+        {
+            name:'Classic Pants',
+            slug: 'classic-pants',
+            category:'Pants',
+            image:'/images/pants3.jpg',
+            price: 75,
+            brand: 'Casely',
+            rating: 2.4,
+            numReviews : 14,
+            countInStock:20,
+            description:'A Popular Pants',
+            
+        },
     ],
 
 }
