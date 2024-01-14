@@ -12,5 +12,5 @@ export type Product = {
     numReviews:number
     countInStock:number
     colors?:[]
-    sizes:[]
+    sizes?:[]
 }

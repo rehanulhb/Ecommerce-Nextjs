@@ -1,5 +1,5 @@
 import ProductItem from "@/components/products/ProductItem";
-import data from "@/lib/dta";
+import data from "@/lib/data";
 
 
 export default function Home() {
