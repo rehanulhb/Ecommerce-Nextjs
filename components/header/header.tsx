@@ -1,5 +1,10 @@
+'use client'
+
 import Link from 'next/link'
 import React from 'react'
+import Menu from './Menu'
+
+
 
 
 const header = () => {
@@ -10,14 +15,12 @@ const header = () => {
           <Link href="/" className="btn btn-ghost text-lg">
             Ecommerce
           </Link>
-          <ul className="flex">
-            <li>
-              <Link className='btn btn-ghost rounded-btn' href="/cart">Cart</Link>
-            </li>
-            <li>
-            <Link className='btn btn-ghost rounded-btn' href="/signin">Sign in</Link>
-            </li>
-          </ul>
+          
+          <Menu/>
+
+          
+          
+          
         </div>
       </nav>
     </header>

@@ -37,6 +37,13 @@ export default function useCartService(){
             : [...items, {...item, qty: 1 }]
             const {itemsPrice, shippingPrice, taxPrice, totalPrice} = 
             calcPrice(updatedCartItems)
+            cartStore.setState({
+                items:updatedCartItems,
+                itemsPrice,
+                shippingPrice,
+                taxPrice,
+                totalPrice,
+            })
         },
     }
 }
