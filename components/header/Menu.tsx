@@ -4,14 +4,14 @@ import useCartService from "@/lib/hooks/useCartStore"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
-const Menu =() => {
+const Menu = () => {
     const {items} = useCartService()
     const [mounted, setMounted] = useState(false)
-    useEffect(()=>{
+    useEffect(() => {
         setMounted(true)
     }, [])
 
-    return 
+    return (
         <div>
             <ul className="flex items-stretch">
                 <li>
@@ -32,6 +32,7 @@ const Menu =() => {
                 </li>
             </ul>
         </div>
+    )
 }
 
 export default Menu
