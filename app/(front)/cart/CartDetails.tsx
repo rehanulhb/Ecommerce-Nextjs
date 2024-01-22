@@ -3,7 +3,7 @@
 import useCartService from "@/lib/hooks/useCartStore"
 import Image from "next/image"
 import Link from "next/link"
-import { useRouter } from "next/router"
+import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 
 export default function CartDetails(){
@@ -58,6 +58,7 @@ export default function CartDetails(){
                                         <span className="px-2">{item.qty}</span>
                                         <button className="btn" type="button" onClick={()=> increase(item)}>+</button>
                                     </td>
+                                    <td>{item.price}</td>
                                 </tr>
                             ))}
                         </tbody>
