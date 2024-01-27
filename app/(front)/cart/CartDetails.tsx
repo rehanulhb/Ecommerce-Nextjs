@@ -54,7 +54,7 @@ export default function CartDetails(){
                                         </Link>
                                     </td>
                                     <td>
-                                        <button className="btn" type="button" onClick={()=> decrease(item)}> - </button>
+                                        <button className="btn" type="button" onClick={()=> decrease(item)}>-</button>
                                         <span className="px-2">{item.qty}</span>
                                         <button className="btn" type="button" onClick={()=> increase(item)}>+</button>
                                     </td>
