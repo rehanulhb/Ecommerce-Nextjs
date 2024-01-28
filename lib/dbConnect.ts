@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose, { Error } from 'mongoose'
 
 async function dbConnect(){
     try{
